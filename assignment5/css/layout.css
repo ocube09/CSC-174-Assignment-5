@@ -1,0 +1,30 @@
+
+/* This is a seperate css document created by the design artist to target some aspects of the layout predefined by the bootstrap */
+
+/* The home class targets the home page as well as the contact, and thank you pages */
+.home {
+    background-image: url(../images/flag.jpg); /* For the background the Nigerian and Chinese Flags were chosen and implemented by the design artist because they represent the countries of the students */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Creates a scrolling effect in the background image */
+    
+}
+
+/* Specific class for the Chinese students' webpages */
+
+.china {
+	background-image: url(../images/shanghai.jpg); /* The shanghai Skyline was used as a backgound image for the chinese students */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Creates a scrolling effect in the background image */
+
+}
+/* Specific class for Olatunde the NIgerian student / odd man out */
+
+.lagos {
+	background-image: url(../images/lekki.jpg); /* For Ola, the popular Lagos ikoyi bridge in Nigeria was used as the background */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Creates a scrolling effect in the background image */
+
+}

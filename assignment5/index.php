@@ -6,56 +6,53 @@
 
 
 
-<!-- Container which has the Nigerian and Chinese Flags as the background, a representation of the countries where all the students are from -->
+<!-- Container which has a picture of pet owners with pets to visually present the  -->
 
 <div class="container-fluid bg-1 text-center home">
-  <img src="images/hand.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Globe" width="250" height="250"> <!-- An image of a globe was chosen by the desing artist in order to highlight the international theme of the website -->
+  <img src="images/" class="img-responsive img-circle margin" style="display:inline" alt="Globe" width="250" height="250"> 
 </div>
 
-<!-- As the design artist, I chose to group the students seperately based on their countries of origin on the home page --> 
 
-<!-- This container is for Olatunde, the Nigerian student who happens to be the odd one out.-->
+<!-- This container is for the description of the main topic Pets.-->
 <div class="container-fluid bg-2 text-center">
-  <h3 class="margin"> Nigerian Student </h3>
-  <img src="images/olatunde_trad.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Olatunde" width="250" height="250">
-  <p> Ola is a Junior at the University of Rochester majoring in Business and minoring in Computer Science. He loves traveling the world and experiencing new cultures. An interesting tidbit about him is that he has been to school in three different countries Nigeria, England and now the US. He speaks two languages English and Yoruba. </p>
-  <a href="olatunde.php" class="btn btn-default btn-lg">
-    <span class="glyphicon"></span> More about Ola
-  </a>
+  <h3 class="margin"> Pets </h3>
+ 
+  <p> A pet or companion animal is an animal kept primarily for a person's company, protection, or entertainment rather than as a working animal, livestock, or laboratory animal. Popular pets are often noted for their attractive appearances, intelligence, and relatable personalities. Two of the most popular pets are dogs and cats.</p>
+
 </div>
 
-<!-- This container for the Chinese students has contrasting colours in order to differentiate them from Ola, the Nigerian Student. The design artist also chose to use a grid layout in this case, so that the 3 students can each have their pages side by side in the same container, thus improving the overall readability of the webpage. -->
+<!-- The design artist also chose to use a grid layout in this case, so that the 3 Pets can each have their pages side by side in the same container, thus improving the overall readability of the webpage. -->
 
 <div class="container-fluid bg-3 text-center">    
-  <h3 class="margin"> Chinese Students </h3><br>
+  <h3 class="margin"> Different types of Pets </h3><br>
   <div class="row">
 
     <div class="col-sm-4">
-      <img src="images/yidi.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Yidi" width="250" height="250">
-      <p>Yidi is a current Senior at the University of Rochester majoring in Computer Science with the track on human computer interaction. He is interested in working on front end development such as web development and mobile app development, and has strong theoretical and practical background in Computer Science and information technology.</p>
+      <img src="images/cat.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Cat" width="250" height="250">
+      <p> The domestic cat (Felis silvestris catus or Felis catus)is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. They are often valued by humans for companionship and for their ability to hunt vermin. There are more than seventy cat breeds recognized by various cat registries.Cats are similar in anatomy to the other felids, with a strong flexible body, quick reflexes, sharp retractable claws and teeth adapted to killing small prey.</p>
 
-      <a href="yidi.php" class="btn btn-default btn-lg">
-      <span class="glyphicon"></span> More about Yidi
+      <a href="cat.php" class="btn btn-default btn-lg">
+      <span class="glyphicon"></span> More about Cats
       </a>  
 
     </div>
 
     <div class="col-sm-4"> 
-      <img src="images/yuanzhuo.jpg" class="img-responsive img-circle margin top " style="display:inline" alt="Yuanzhuo" width="250" height="250">
-      <p> Yuanzhuo is a Freshman at the University of Rochester majoring in Computer Science. Although he has never had a job or internship, he is currently in the market for an internship as front-end web developer for the summer. He enjoys playing sports, watching films and listening to music in is free time, to help him relieve stress. </p>
+      <img src="images/parrot.jpg" class="img-responsive img-circle margin top " style="display:inline" alt="Parrot" width="250" height="250">
+      <p>Parrots may not make good pets for most people because of their natural wild instincts such as screaming and chewing. Although parrots can be very affectionate and cute when immature, they often become aggressive when mature (partly due to mishandling and poor training) and may bite, causing serious injury.For this reason, parrot rescue groups estimate that most parrots are surrendered and rehomed through at least five homes before reaching their permanent destinations or before dying prematurely from unintentional or intentional neglect and abuse.</p>
 
-      <a href="yuanzhuo.php" class="btn btn-default btn-lg">
-      <span class="glyphicon"></span> More about Yuanzhuo
+      <a href="parrot.php" class="btn btn-default btn-lg">
+      <span class="glyphicon"></span> More about Parrots
       </a>
 
     </div>
 
     <div class="col-sm-4"> 
-      <img src="images/zhenghao.jpg" class="img-responsive img-circle margin top " style="display:inline" alt="Zhenghao" width="250" height="250">
-      <p>Zhenghao is a Senior at the Universiy of Rochester majoring in Financial Economics. He identifies as an enemy of racism, sexualism, and anti-LGBT groups, and strongly opposes any discrimination in every single possible form. Fascinated by Japanese culture, he learned Japanese in the past 4 years, and hopes to live in Japan at some point.</p>
+      <img src="images/snake.jpg" class="img-responsive img-circle margin top " style="display:inline" alt="Snake" width="250" height="250">
+      <p>In the Western world, some snakes (especially docile species such as the ball python and corn snake) are kept as pets. To meet this demand a captive breeding industry has developed. Snakes bred in captivity tend to make better pets and are considered preferable to wild caught specimens.Snakes can be very low maintenance pets, especially compared to more traditional species. They require minimal space, as most common species do not exceed 5 feet (1.5 m) in length. Pet snakes can be fed relatively infrequently, usually once every 5 to 14 days. Certain snakes have a lifespan of more than 40 years if given proper care.</p>
 
-      <a href="zhenghao.php" class="btn btn-default btn-lg">
-      <span class="glyphicon"></span> More about Zhenghao
+      <a href="snake.php" class="btn btn-default btn-lg">
+      <span class="glyphicon"></span> More about Snakes
       </a>
 
     </div>
@@ -65,7 +62,7 @@
 
 <!-- Footer with the name of the Design Artist -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Designed by Fiyinfoluwa Oluyinka </p> 
+  <p>Designed by Albert Nissim </p> 
 </footer>
 
 </body>

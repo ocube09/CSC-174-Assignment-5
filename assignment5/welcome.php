@@ -23,22 +23,22 @@
 
 <?php include 'inc/nav.inc' ;?>
 
-<!-- Container which has the Nigerian and Chinese Flags as the background, a representation of the countries where all the students are from -->
+<!-- Container which has the Nigerian and Chinese Flags as the background, a representation of the countries where all the students are from, designer should change this to theme that fits the topic of Pets -->
 <div class="container-fluid bg-1 text-center home">
   <h3 class="margin"></h3>
-  <img src="images/hand.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Globe" width="250" height="250"> <!-- An image of a globe was chosen by the desing artist in order to highlight the international theme of the website -->
+  <img src="images/" class="img-responsive img-circle margin" style="display:inline" alt="Globe" width="250" height="250"> <!-- Designer should choose an image that fits the topic of Pets -->
 </div>
 
 <div class="container-fluid bg-3 text-center"> 
 
 Success !
-The Student is
+The Pet Owner is
 <?php echo $name; ?><br><br>
 Your email address : <?php echo $email; ?>
 has been added.
 
 <footer class="container-fluid bg-4 text-center">
-  <p>Designed by Fiyinfoluwa Oluyinka </p> 
+  <p>Designed by Albert Nissim </p> 
 </footer>
 
 </div>

@@ -12,16 +12,17 @@
         <span class="icon-bar"></span>                       
       </button>
 
-      <a class="navbar-brand" href="index.php">International Students</a> <!-- Headline which is linked to home or index page -->
+      <a class="navbar-brand" href="index.php">Pets</a> <!-- Headline which is linked to home or index page -->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php">Home</a></li>
-        <li><a href="olatunde.php">Olatunde</a></li>
-        <li><a href="yidi.php">Yidi</a></li>
-        <li><a href="yuanzhuo.php">Yuanzhuo</a></li>
-        <li><a href="zhenghao.php">Zhenghao</a></li>
-        <li><a href="form.php">Contact Info</a></li> 
+        <li><a href="cat.php">Cat</a></li>
+        <li><a href="parrot.php">Parrot</a></li>
+        <li><a href="snake.php">Snake</a></li>
+        <li><a href="form.php">Survey</a></li> 
+        <li><a href="register.php">Register</a></li>
+        <li><a href="login.php">Login</a></li>
       </ul>
     </div>
   </div>
