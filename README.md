@@ -3,10 +3,10 @@ Repository for Assignment 5
 
 
 For the Designer Albert Nissim,
-I have provided a basic website template. However, you can change it as you desire. A recommendation would be to use Kostin's Template.
+I have provided a basic website template. However, you could change it as you desire. A recommendation would be to use Kostin's Template.
 Change the backgound picture to something thats fit the main topic of Pets.
 Choose Fonts and pictures that go with the main topic of Pets.
-Make sure the design for the Login and Register pages are similar to the rest of the other webpages.
+Make sure the design for the ,Survey Login and Register pages are similar to the rest of the other webpages.
 
 
 
