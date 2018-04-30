@@ -1,21 +1,20 @@
 <?php include 'inc/html-top.inc' ;?> 
 
 
+
+
 <?php
-/* Database credentials. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'urcscon3_fiyin');
-define('DB_PASSWORD', 'rx577kja');
-define('DB_NAME', 'urcscon3_lagos5');
- 
-/* Attempt to connect to MySQL database */
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
- 
+$servername = "localhost";
+$username = "urcscon3_fiyin";
+$password = "rx577kja";
+$dbname = "urcscon3_lagos5";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
-}
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
 
     $name = Trim(stripslashes($_POST['name']));
 
@@ -27,17 +26,16 @@ if($link === false){
 
     $year = Trim(stripslashes($_POST['year']));
 
+$sql = "INSERT INTO survey (name, email, phone, pet, year) VALUES ('$name','$email','$phone','$pet','$year')";
 
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
 
-	
-	$query  = "INSERT INTO survey (name, email, phone, pet, year) VALUES ('$name','$email','$phone','$pet','$year)";
-
-	$result = mysqli_query($link, $query);
-
-	mysqli_close($link);
-
+$conn->close();
 ?>
-
 
 
 <body>
