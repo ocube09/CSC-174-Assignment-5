@@ -1,6 +1,6 @@
 
+<?php include 'inc/html-top.inc';?>
 
-<?php include 'inc/html-top.inc' ;?> 
 
 <body>
 
@@ -34,17 +34,22 @@
 			<label for="phone"></label>
 		</div>	
 
-        What type of Pet do you currently own?<br>
-		<input type="radio" name="pet" value="Cat" checked>Cat<br>
-  		<input type="radio" name="pet" value="female">Parrot<br>
-  		<input type="radio" name="pet" value="other">Snake<br>
+		<div>
+        	What type of Pet do you currently own?<br>
+			<input type="radio" name="pet" value="Cat" checked>Cat<br>
+  			<input type="radio" name="pet" value="Parrot">Parrot<br>
+  			<input type="radio" name="pet" value="Snake">Snake<br>
+  		</div>
   		
         
-        How many years have you been a Pet owner?<br>
-  		<input type="radio" name="time" value="male" checked>Less than a year<br>
-  		<input type="radio" name="time" value="female">A year<br>
- 		<input type="radio" name="time" value="other">more than a year
-     
+        <div>
+        	How many years have you been a Pet owner?<br>
+  			<input type="checkbox" name="year" value="<1year" checked>Less than a year<br>
+  			<input type="checkbox" name="year" value="1year">A year<br>
+ 			<input type="checkbox" name="year" value="1year+">more than a year
+ 		</div>
+
+ 		  <input type="submit" name="submit" id="submit" value="submit">
 
 </form>
 

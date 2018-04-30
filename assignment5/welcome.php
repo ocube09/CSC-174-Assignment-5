@@ -1,23 +1,44 @@
+<?php include 'inc/html-top.inc' ;?> 
+
+
 <?php
-	// 1. Create a database connection
-	$dbhost = "localhost";
-	$dbuser = "urcscon3_shangh";
-	$dbpass = "coffee1N";
-	$dbname = "urcscon3_shangh";
-	$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+/* Database credentials. Assuming you are running MySQL
+server with default setting (user 'root' with no password) */
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'urcscon3_fiyin');
+define('DB_PASSWORD', 'rx577kja');
+define('DB_NAME', 'urcscon3_lagos5');
+ 
+/* Attempt to connect to MySQL database */
+$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+ 
+// Check connection
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
 
     $name = Trim(stripslashes($_POST['name']));
+
     $email = Trim(stripslashes($_POST['email']));
+
     $phone = Trim(stripslashes($_POST['phone']));
-    $textarea = Trim(stripslashes($_POST['textarea']));
+
+    $pet = Trim(stripslashes($_POST['pet']));
+
+    $year = Trim(stripslashes($_POST['year']));
+
+
 
 	
-	$query  = "INSERT INTO contact (name, email, phone, textarea) VALUES ('$name','$email','$phone','$textarea')";
-	$result = mysqli_query($connection, $query);
+	$query  = "INSERT INTO survey (name, email, phone, pet, year) VALUES ('$name','$email','$phone','$pet','$year)";
+
+	$result = mysqli_query($link, $query);
+
+	mysqli_close($link);
 
 ?>
 
-<?php include 'inc/html-top.inc' ;?> 
+
 
 <body>
 
@@ -48,12 +69,3 @@ has been added.
 
 </body>
 </html>
-
-<?php
-	// 4. Step 4 is unnecessary here because we didn't 
-	//	  get data that needs to be released
-	//mysqli_free_result($result);
-
-	// 5. Close database connection
-	mysqli_close($connection);
-?>
