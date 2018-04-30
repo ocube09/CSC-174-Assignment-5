@@ -8,7 +8,7 @@ Change the backgound picture to something thats fit the main topic of Pets.
 Choose Fonts and pictures that go with the main topic of Pets.
 Make sure the design for the ,Survey Login and Register pages are similar to the rest of the other webpages.
 
-# Albert 
+
 
 
 
