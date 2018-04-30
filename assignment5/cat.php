@@ -8,7 +8,7 @@
 
 <h1 class="centered" > Cat</h1>
 <h4 class="centered"> A type of pet that is a Mammmal</h4>
-<img src="images/cat.jpg" class="img-responsive img-circle margin centeredd" alt="Cat">
+<img src="images/kitten.jpg" class="img-responsive img-circle margin centeredd" alt="Cat">
 
 
 <div class="container">
